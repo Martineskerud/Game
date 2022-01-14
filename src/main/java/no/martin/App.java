@@ -24,7 +24,7 @@ public class App extends SimpleApplication {
         Geometry geom = new Geometry("Box", b);  // create cube geometry from the shape
         Material mat = new Material(assetManager,
                 "Common/MatDefs/Misc/Unshaded.j3md");  // create a simple material
-        mat.setColor("Color", ColorRGBA.Cyan);   // set color of material to blue
+        mat.setColor("Color", ColorRGBA.Green);   // set color of material to blue
         geom.setMaterial(mat);                   // set the cube's material
         rootNode.attachChild(geom);              // make the cube appear in the scene
     }
